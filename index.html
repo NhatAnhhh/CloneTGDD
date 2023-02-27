@@ -1,0 +1,1896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/333b377025.js" crossorigin="anonymous"></script>
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+    <link rel="stylesheet" href="./style.css">
+    <title>TGDD Clone</title>
+
+</head>
+
+<body>
+
+    <header><img src="./image/headbandne.png" alt="bandne"></header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href=""></a><img style="width: 150px;cursor:pointer" src="./image/logo.jpg" alt="logo"></li>
+                <li id="adress-form"><a href="#"><button>Hồ Chí Minh <i
+                                class="fa-sharp fa-solid fa-sort-down"></i></button></a> </li>
+                <div class="adress-form">
+                    <div class="adress-from-content">
+                        <h2>Chọn địa chỉ nhận hàng <span id="btn-close">X Đóng</span></h2>
+                        <form action="">
+                            <p>Quý khách vui lòng cho biết Địa Chỉ Nhận Hàng để biết chính xác thời gian giao hàng</p>
+                            <select name="" id="">
+                                <option value="#">Chọn địa điểm</option>
+                                <option value="#">Hồ Chí Minh</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="#">Chọn Quận/Huyện</option>
+                                <option value="#">Hồ Chí Minh</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="#">Chọn Phường/Xã</option>
+                                <option value="#">HCM</option>
+                            </select>
+                            <input type="text" placeholder="Số nhà, Tên đường">
+                            <button>Xác Nhận</button>
+                        </form>
+                    </div>
+                </div>
+                <li><input type="text" placeholder=" Bạn tìm gì..."><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li><button>Lịch sử đơn hàng</button></li>
+                <li><a href=""></a><button><i class="fa-solid fa-cart-shopping"></i> Giỏ hàng </button></li>
+                <li><a href="">24 Công Nghệ</a></li>
+                <li><a href="">Hỏi Đáp</a></li>
+                <li><a href="">Game App</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="menu-bar">
+        <div class="container">
+            <div class="menu-bar-content">
+                <ul>
+                    <li><a href=""><i class="fa-solid fa-mobile-screen-button"></i> Điện thoại</a></li>
+                    <li><a href=""><i class="fa-solid fa-laptop"></i> Laptop</a></li>
+                    <li><a href=""><i class="fa-sharp fa-solid fa-tablet"></i> Tablet</a></li>
+                    <li><a href=""><i class="fa-solid fa-headphones"></i> Phụ kiện
+                            <i class="fa-sharp fa-solid fa-sort-down"></i></a>
+                        <div class="submenu">
+                            <ul>
+                                <div class="item-child">
+                                    <strong>Phụ kiện di động</strong>
+                                    <li><a href="">
+                                            <h3>Sạc dự phòng</h3>
+                                        </a></li>
+                                    <li><a href="">
+                                            <h3>Sạc, cáp</h3>
+                                        </a></li>
+                                    <li><a href="">
+                                            <h3>Ốp lưng điện thoại</h3>
+                                        </a></li>
+                                    <li> <a href="/op-lung-may-tinh-bang">
+                                            <h3>Ốp lưng máy tính bảng</h3>
+                                        </a></li>
+                                    <li><a href="/mieng-dan-man-hinh">
+                                            <h3>Miếng dán màn hình</h3>
+                                        </a></li>
+                                    <li><a href=""><a href="/gay-tu-suong">
+                                                <h3>Gậy chụp ảnh, Gimbal</h3>
+                                            </a></li>
+                                    <li><a href="/gia-do-dien-thoai">
+                                            <h3>Giá đỡ điện thoại</h3>
+                                    </li>
+                                    <li><a href="/de-moc-dien-thoai">
+                                            <h3>Đế, móc điện thoại</h3>
+                                        </a>
+                                    </li>
+                                    <li><a href="/tui-chong-nuoc">
+                                            <h3>Túi chống nước</h3>
+                                        </a>
+                                    </li>
+                                    <li><a href="/tui-dung-airpods">
+                                            <h3>Túi đựng AirPods</h3>
+                                        </a>
+                                    </li>
+                                    <li><a href="/airtag">
+                                            <h3>AirTag, Vỏ bảo vệ AirTag</h3>
+                                        </a>
+                                    </li>
+                                    <li><a href="/phu-kien-thong-minh">
+                                            <h3>Phụ kiện Tablet</h3>
+                                        </a>
+                                    </li>
+                                </div>
+
+                                <div class="item-child">
+                                    <strong>Phụ kiện Laptop</strong>
+                                    <li><a href="/chuot-ban-phim">
+                                            <h3>Chuột, bàn phím</h3>
+                                        </a></li>
+                                    <li> <a href="/thiet-bi-mang">
+                                            <h3>Thiết bị mạng</h3>
+                                        </a></li>
+                                    <li> <a href="/tui-chong-soc">
+                                            <h3>Balo, túi chống sốc</h3>
+                                        </a></li>
+                                    <li> <a href="/gia-do-dien-thoai?g=de-laptop-macbook">
+                                            <h3>Giá đỡ laptop</h3>
+                                        </a></li>
+                                    <li><a href="/phan-mem">
+                                            <h3>Phần mềm</h3>
+                                        </a></li>
+                                </div>
+
+                                <div class="item-child">
+                                    <strong>Thiết bị âm thanh </strong>
+                                    <li> <a href="/tai-nghe">
+                                            <h3>Tai nghe</h3>
+                                        </a></li>
+                                    <li><a href="/loa-laptop">
+                                            <h3>Loa</h3>
+                                        </a></li>
+                                    <li><a href="/micro-thu-am">
+                                            <h3>Micro thu âm điện thoại</h3>
+                                        </a></li>
+                                    <li><a href="/micro">
+                                            <h3>Micro</h3>
+                                        </a></li>
+                                </div>
+
+                                <div class="item-child">
+                                    <strong>Thiết bị nhà thông minh </strong>
+                                    <li> <a href="/khoa-dien-tu">
+                                            <h3>Khóa điện tử</h3>
+                                        </a></li>
+                                    <li> <a href="/camera-giam-sat">
+                                            <h3>Camera, webcam</h3>
+                                        </a></li>
+                                    <li> <a href="/may-chieu">
+                                            <h3>Máy chiếu</h3>
+                                        </a></li>
+                                    <li> <a href="/android-tv-box">
+                                            <h3>TV Box</h3>
+                                        </a></li>
+                                    <li> <a href="/o-cam-thong-minh">
+                                            <h3>Ổ cắm, bóng đèn thông minh</h3>
+                                        </a></li>
+                                </div>
+
+                                <div class="item-child">
+                                    <strong>thiết bị lưu trữ </strong>
+                                    <li><a href="/o-cung-di-dong">
+                                            <h3>Ổ cứng di động</h3>
+                                        </a></li>
+                                    <li> <a href="/the-nho-dien-thoai">
+                                            <h3>Thẻ nhớ</h3>
+                                        </a></li>
+                                    <li><a href="/usb">
+                                            <h3>USB</h3>
+                                        </a></li>
+                                </div>
+
+                                <div class="item-child">
+                                    <strong>thương hiệu hàng đầu </strong>
+                                    <li> <a href="/phu-kien/apple">
+                                            <h3>Apple</h3>
+                                        </a></li>
+                                    <li><a href="/phu-kien/samsung">
+                                            <h3>Samsung</h3>
+                                        </a></li>
+                                    <li> <a href="/phu-kien/sony">
+                                            <h3>Sony</h3>
+                                        </a></li>
+                                    <li><a href="/phu-kien/jbl">
+                                            <h3>JBL</h3>
+                                        </a></li>
+                                </div>
+
+                                <div class="item-child">
+                                    <strong>Phụ kiện khác </strong>
+                                    <li><a href="/phu-kien-oto">
+                                            <h3>Phụ kiện ô tô</h3>
+                                        </a></li>
+                                    <li> <a href="/may-tinh-cam-tay">
+                                            <h3>Máy tính cầm tay</h3>
+                                        </a></li>
+                                    <li> <a href="/quat-mini">
+                                            <h3>Quạt mini</h3>
+                                        </a></li>
+                                    <li> <a href="/pin">
+                                            <h3>Pin tiểu</h3>
+                                        </a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href=""><i class="fa-solid fa-clock"></i> Smart Watch</a></li>
+                    <li><a href=""><i class="fa-solid fa-mobile-screen-button"></i> Máy cũ giá rẻ</a></li>
+                    <li><a href=""><i class="fa-solid fa-desktop"></i> PC,Máy in <i
+                                class="fa-sharp fa-solid fa-sort-down"></i></a>
+                        <div class="submenu limit-width">
+                            <ul>
+                                <div class="item-child">
+                                    <li><a href="">
+                                            <h3>Máy in</h3>
+                                        </a></li>
+                                    <li><a href="">
+                                            <h3>Mực in</h3>
+                                        </a></li>
+                                    <li><a href="">
+                                            <h3>Màn hình máy tính </h3>
+                                        </a></li>
+                                    <li><a href="">
+                                            <h3>Máy tính để bàn</h3>
+                                        </a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href=""><i class="fa-solid fa-mobile-screen-button"></i> Sim, Thẻ cào</a></li>
+                    <li class="has-list"><a href="">Dịch vụ tiện ích <i class="fa-sharp fa-solid fa-sort-down"></i></a>
+                        <div class="submenu ">
+                            <ul>
+                                <div class="item-child ">
+                                    <strong>Thanh toán hóa đơn</strong>
+                                    <li><a href="/tien-ich/thanh-toan-tra-gop">
+                                            <h3>Đóng tiền trả góp</h3>
+                                        </a></li>
+                                    <li><a href="/tien-ich/thanh-toan-tien-dien">
+                                            <h3>Đóng tiền điện</h3>
+                                        </a></li>
+                                    <li><a href="/tien-ich/thanh-toan-tien-nuoc">
+                                            <h3>Đóng tiền nước</h3>
+                                        </a></li>
+                                    <li><a href="/tien-ich/thanh-toan-internet-fpt">
+                                            <h3>Đóng tiền NET FPT</h3>
+                                        </a></li>
+                                    <li><a href="/tien-ich/thanh-toan-internet-vnpt">
+                                            <h3>Đóng tiền net, cáp VNPT</h3>
+                                        </a></li>
+                                    <li><a href="/tien-ich/goi-cuoc-truyen-hinh">
+                                            <h3>Mua gói truyền hình</h3>
+                                        </a></li>
+                                    <li><a href="/tien-ich/thanh-toan-ve-tau-xe">
+                                            <h3>Vé tàu, xe, máy bay</h3>
+                                        </a></li>
+                                    <li><a href="/tien-ich/thanh-toan-vien-phi">
+                                            <h3>Viện phí ĐH Y DƯỢC TPHCM</h3>
+                                        </a></li>
+                                </div>
+
+                                <div class="item-child ">
+                                    <strong>Tài chính - Bảo hiểm </strong>
+                                    <li><a href="/tien-ich/bao-hiem-o-to-xe-may">
+                                            <h3>Mua bảo hiểm xe máy, ô tô</h3>
+                                        </a></li>
+                                    <li><a href="/tien-ich/thanh-toan-bao-hiem">
+                                            <h3>Đóng tiền bảo hiểm</h3>
+                                        </a></li>
+                                </div>
+
+                                <div class="item-child ">
+                                    <strong>Tiện ích viễn thông</strong>
+                                    <li><a href="/tien-ich/goi-cuoc-lap-dat-internet-truyen-hinh">
+                                            <h3>Lắp đặt Internet, truyền hình</h3>
+                                        </a></li>
+                                    <li><a href="/tien-ich/goi-cuoc-data">
+                                            <h3>Mua gói data 3G, 4G</h3>
+                                        </a></li>
+                                    <li><a href="/tien-ich/nap-tien-dien-thoai">
+                                            <h3>Nạp tiền trả trước</h3>
+                                        </a></li>
+                                    <li><a href="/tien-ich/nap-tien-dien-thoai-tra-sau">
+                                            <h3>Nạp tiền trả sau</h3>
+                                        </a></li>
+                                    <li><a href="/tien-ich/the-cao-game">
+                                            <h3>Thẻ cào game</h3>
+                                        </a></li>
+                                    <li><a href="/tien-ich/the-cao-dien-thoai">
+                                            <h3>Thẻ cào điện thoại</h3>
+                                        </a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="banner">
+        <a href="#"><img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/02/banner/1-1920x450-1.jpg" alt=""></a>
+    </div>
+
+    <section class="main-content">
+        <div class="container">
+            <div class="slide-container">
+                <div class="slide-top-content-all">
+                    <div class="slide-container-top">
+                        <a class="owl-item" href="#"><img src="./image/s23.png" alt=""></a>
+                        <a class="owl-item" href="#"><img src="./image/reno8t.png" alt=""></a>
+                        <a class="owl-item" href="#"><img src="./image/ip14.png" alt=""></a>
+                        <a class="owl-item" href="#"><img src="./image/acer.png" alt=""></a>
+                    </div>
+                    <div class="slide-container-btn">
+                        <i class="fas fa-chevron-left"></i>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="option-promo">
+            <li><a href=""><img
+                        src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_75/https://cdn.tgdd.vn//content/Frame-47577-120x120.png"
+                        alt=""><span>Galaxy S23 Series</span></a></li>
+            <li><a href=""><img
+                        src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_75/https://cdn.tgdd.vn//content/ICON-VLT-120X120-120x120.png"
+                        alt=""><span>Đồng hồ Sale sốc</span></a></li>
+            <li><a href=""><img
+                        src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_75/https://cdn.tgdd.vn//content/100x100-100x100-27.png"
+                        alt=""><span>Nhận mã giảm đến 500K</span></a></li>
+            <li><a href=""><img src="https://cdn.tgdd.vn//content/icon-TGDD-OF-100x100.gif" alt=""><span>Máy cũ Giảm đén
+                        50%</span></a></li>
+        </ul>
+        <div class="banner-home">
+            <div class="banner-topzone">
+                <a href=""><img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/02/banner/Promote-TZ-Des--1--1200x100-1.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-product-one">
+        <div class="container">
+            <div class="main-product-one-content">
+                <div class="main-product-one-title">
+                    <i class="light-ic">
+                        <img width="20" height="32"src="https://cdn.tgdd.vn/mwgcart/mwgcore/ContentMwg/images/homev2/lightning-ic.png" alt="">
+                    </i>
+                    <h2>DEAL SIÊU SỐC</h2>
+                </div>
+            
+                <div class="main-product-one-slider">
+                    <div class="main-product-one-items">
+                        <div class="main-product-one-item">
+                            <div class="item-img">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/282827/TimerThumb/apple-macbook-air-m2-2022-(33).jpg" alt="">
+                            </div>
+                            <div class="main-product-one-item-text">
+                                <h3>MacBook Air M2 2022 8-core GPU</h3>
+                                <strong class="price">
+                                    26.390.000₫
+                                    <small>-20%</small>
+                                </strong>
+                                <div class="fs-contain">
+                                    <img width="15" height="15" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/mwgcart/mwgcore/ContentMwg/images/fs-iconfire.png" alt="icon flashsale">
+                                    <span class="rq-count">
+                                        <i style="width:90%;" class="fs-iconfire"></i>
+                                        <b>Còn 18/20 suất</b>
+                                    </span>
+                                </div>
+                            </div>   
+                        </div>
+
+                        <div class="main-product-one-item">
+                            <div class="item-img">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/263980/TimerThumb/acer-nitro-5-gaming-an515-45-r6ev-r5-nhqbmsv006-(46).jpg" alt="">
+                            </div>
+                            
+                            <div class="main-product-one-item-text">
+                                <h3>Acer Nitro 5 Gaming AN515 45 R6EV R5 5600H (NH.QBMSV.006)</h3>
+                                <strong class="price">
+                                    19.240.000₫
+                                    <small>-14%</small>
+                                </strong>
+                                <div class="fs-contain">
+                                    <img width="15" height="15" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/mwgcart/mwgcore/ContentMwg/images/fs-iconfire.png" alt="icon flashsale">
+                                    <span class="rq-count">
+                                        <i style="width:95%;" class="fs-iconfire"></i>
+                                        <b>Còn 19/20 suất</b>
+                                    </span>
+                                </div>
+                            </div>   
+                        </div>
+                        
+                        <div class="main-product-one-item">
+                            <div class="item-img">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/7077/248115/dong-ho-beu-active-1-thumbnew-600x600.jpeg" alt="">
+                            </div>
+                            <div class="main-product-one-item-text">
+                                <h3>BeU Active 1 45mm dây silicone</h3>
+                                <strong class="price">
+                                    490.000₫
+                                    <small>-67%</small>
+                                </strong>
+                                <div class="fs-contain">
+                                    <img width="15" height="15" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/mwgcart/mwgcore/ContentMwg/images/fs-iconfire.png" alt="icon flashsale">
+                                    <span class="rq-count">
+                                        <i style="width:93%;" class="fs-iconfire"></i>
+                                        <b>Còn 27/30 suất</b>
+                                    </span>
+                                </div>
+                            </div>   
+                        </div>
+
+                        <div class="main-product-one-item">
+                            <div class="item-img">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/54/74185/tai-nghe-chup-tai-kanen-ip-2090-trang1-600x600.jpg" alt="">
+                            </div>
+                            <div class="main-product-one-item-text">
+                                <h3>Tai nghe Chụp Tai Kanen IP-2090</h3>
+                                <strong class="price">
+                                    150.000₫
+                                    <small>-57%</small>
+                                </strong>
+                                <div class="fs-contain">
+                                    <img width="15" height="15" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/mwgcart/mwgcore/ContentMwg/images/fs-iconfire.png" alt="icon flashsale">
+                                    <span class="rq-count">
+                                        <i style="width:100%;" class="fs-iconfire"></i>
+                                        <b>Còn 20/20 suất</b>
+                                    </span>
+                                </div>
+                            </div>   
+                        </div>
+
+                        <div class="main-product-one-item">
+                            <div class="item-img">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/54/225600/tai-nghe-chup-tai-mozard-ip-840-avatar-1-600x600.jpg" alt="">
+                            </div>
+                            <div class="main-product-one-item-text">
+                                <h3>Tai nghe Chụp Tai Mozard IP-840</h3>
+                                <strong class="price">
+                                    150.000₫
+                                    <small>-57%</small>
+                                </strong>
+                                <div class="fs-contain">
+                                    <img width="15" height="15" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/mwgcart/mwgcore/ContentMwg/images/fs-iconfire.png" alt="icon flashsale">
+                                    <span class="rq-count">
+                                        <i style="width:65%;" class="fs-iconfire"></i>
+                                        <b>Còn 13/20 suất</b>
+                                    </span>
+                                </div>
+                            </div>   
+                        </div>
+
+                        <div class="main-product-one-item">
+                            <div class="item-img">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/7264/216126/q-q-s283j200y-nu-1-600x600.jpg" alt="">
+                            </div>
+                            <div class="main-product-one-item-text">
+                                <h3>Q&Q 30 mm Nữ S283J200Y</h3>
+                                <strong class="price">
+                                    376.000₫
+                                    <small>-60%</small>
+                                </strong>
+                                <div class="fs-contain">
+                                    <img width="15" height="15" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/mwgcart/mwgcore/ContentMwg/images/fs-iconfire.png" alt="icon flashsale">
+                                    <span class="rq-count">
+                                        <i style="width:82%;" class="fs-iconfire"></i>
+                                        <b>Còn 35/35 suất</b>
+                                    </span>
+                                </div>
+                            </div>   
+                        </div>
+
+                        <div class="main-product-one-item">
+                            <div class="item-img">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/522/250734/ipad-mini-6-wifi-cellular-pink-1-600x600.jpg" alt="">
+                            </div>
+                            <div class="main-product-one-item-text">
+                                <h3>iPad mini 6 5G</h3>
+                                <strong class="price">
+                                    14.990.000₫
+                                    <small>-25%</small>
+                                </strong>
+                                <div class="fs-contain">
+                                    <img width="15" height="15" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/mwgcart/mwgcore/ContentMwg/images/fs-iconfire.png" alt="icon flashsale">
+                                    <span class="rq-count">
+                                        <i style="width:91%;" class="fs-iconfire"></i>
+                                        <b>Còn 22/25 suất</b>
+                                    </span>
+                                </div>
+                            </div>   
+                        </div>
+
+                        <div class="main-product-one-item">
+                            <div class="item-img">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/2162/247516/bluetooth-mozard-x21-thumb1-600x600.jpeg" alt="">
+                            </div>
+                            <div class="main-product-one-item-text">
+                                <h3>Loa Bluetooth Mozard X21</h3>
+                                <strong class="price">
+                                    275.000₫
+                                    <small>-50%</small>
+                                </strong>
+                                <div class="fs-contain">
+                                    <img width="15" height="15" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/mwgcart/mwgcore/ContentMwg/images/fs-iconfire.png" alt="icon flashsale">
+                                    <span class="rq-count">
+                                        <i style="width:44%;" class="fs-iconfire"></i>
+                                        <b>Còn 7/20 suất</b>
+                                    </span>
+                                </div>
+                            </div>   
+                        </div>
+
+                        <div class="main-product-one-item">
+                            <div class="item-img">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/54/232918/bluetooth-true-wireless-jabra-elite-85t-d-avatar-1-1-600x600.jpg" alt="">
+                            </div>
+                            <div class="main-product-one-item-text">
+                                <h3>Tai nghe Bluetooth True Wireless Jabra Elite 85T</h3>
+                                <strong class="price">
+                                    3.590.000₫
+                                    <small>-40%</small>
+                                </strong>
+                                <div class="fs-contain">
+                                    <img width="15" height="15" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/mwgcart/mwgcore/ContentMwg/images/fs-iconfire.png" alt="icon flashsale">
+                                    <span class="rq-count">
+                                        <i style="width:100%;" class="fs-iconfire"></i>
+                                        <b>Còn 30/30 suất</b>
+                                    </span>
+                                </div>
+                            </div>   
+                        </div>
+
+                        <div class="main-product-one-item">
+                            <div class="item-img">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/57/214690/pin-sac-du-phong-polymer-10000mah-type-c-pd-qc30-m-190722-053918-600x600.jpg" alt="">
+                            </div>
+                            <div class="main-product-one-item-text">
+                                <h3>Mbest DS506-WB</h3>
+                                <strong class="price">
+                                    375.000₫
+                                    <small>-50%</small>
+                                </strong>
+                                <div class="fs-contain">
+                                    <img width="15" height="15" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/mwgcart/mwgcore/ContentMwg/images/fs-iconfire.png" alt="icon flashsale">
+                                    <span class="rq-count">
+                                        <i style="width:60%;" class="fs-iconfire"></i>
+                                        <b>Còn 12/20 suất</b>
+                                    </span>
+                                </div>
+                            </div>   
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-product-two">
+        <div class="container">
+            <div class="main-product-two-content">
+                
+                <div class="main-product-two-title">
+                    <a style="display: flex;" href="#"><img style="width: 100%;;" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/02/banner/Tagline-Hot-sale---Moi-ngay---cam-DESK-1200x120.png" alt=""></a>
+                </div>
+
+                <div class="main-product-two-content-container">
+                    <div class="main-product-two-container-slider">
+                        <div class="main-product-two-slider">
+                            <div class="main-product-two-items">
+                                <div class="main-product-two-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/282827/TimerThumb/apple-macbook-air-m2-2022-(33).jpg" alt="">
+                                    </div>
+                                    <div class="main-product-two-item-text">
+                                        <h3>MacBook Air M2 2022 8-core GPU</h3>
+                                        <strong class="price">
+                                            26.390.000₫
+                                            <small>-20%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.8</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (16)
+                                        </p>
+                                    </div>   
+                                </div>
+        
+                                <div class="main-product-two-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/1882/237414/but-cam-ung-apple-pencil-1-mk0c2-180722-112904-600x600.jpeg" alt="">
+                                    </div>
+                                    <div class="main-product-two-item-text">
+                                        <h3>Bút cảm ứng Apple Pencil 1 MK0C2</h3>
+                                        <strong class="price">
+                                            2.020.000₫
+                                            <small>-30%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.8</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (18)
+                                        </p>
+                                    </div>   
+                                </div>
+        
+                                <div class="main-product-two-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/54/230264/tai-nghe-bluetooth-true-wireless-mozard-air-3-den-070123-013447-600x600.jpg" alt="">
+                                    </div>
+                                    <div class="main-product-two-item-text">
+                                        <h3>Tai nghe Bluetooth True Wireless Mozard Air 3</h3>
+                                        <strong class="price">
+                                            495.000₫
+                                            <small>-44%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>3.6</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (126)
+                                        </p>
+                                    </div>   
+                                </div>
+        
+                                <div class="main-product-two-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/7077/249906/apple-watch-s7-41mm-do-thumbnew-600x600.jpeg" alt="">
+                                    </div>
+                                    <div class="main-product-two-item-text">
+                                        <h3>Apple Watch Series 7 GPS 41mm viền nhôm dây silicone</h3>
+                                        <strong class="price">
+                                            8.990.000₫
+                                            <small>-25%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.3</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (50)
+                                        </p>
+                                    </div>   
+                                </div>
+        
+                                <div class="main-product-two-item">
+                                    <div class="item-img">
+                                        <img src=https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/57/286067/pin-sac-du-phong-polymer-15000-mah-type-c-pd-qc30-xmobile-powerbox-p72d-den-030822-110127-600x600.jpg alt="">
+                                    </div>
+                                    <div class="main-product-two-item-text">
+                                        <h3>Xmobile PowerBox P72D</h3>
+                                        <strong class="price">
+                                            720.000₫
+                                            <small>-20%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.8</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (21)
+                                        </p>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="main-product-two-slider">
+                            <div class="main-product-two-items">
+                                <div class="main-product-two-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-vang-thumb-600x600.jpg" alt="">
+                                    </div>
+                                    <div class="main-product-two-item-text">
+                                        <h3>iPhone 14 Pro Max 128GB</h3>
+                                        <strong class="price">
+                                            29.390.000₫
+                                            <small>-14%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.8</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (166)
+                                        </p>
+                                    </div>   
+                                </div>
+        
+                                <div class="main-product-two-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/247508/iphone-14-pro-tim-thumb-600x600.jpg" alt="">
+                                    </div>
+                                    <div class="main-product-two-item-text">
+                                        <h3>iPhone 14 Pro 128GB</h3>
+                                        <strong class="price">
+                                            27.020.000₫
+                                            <small>-15%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.5</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (100)
+                                        </p>
+                                    </div>   
+                                </div>
+        
+                                <div class="main-product-two-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/289691/iphone-14-pro-bac-thumb-600x600.jpg" alt="">
+                                    </div>
+                                    <div class="main-product-two-item-text">
+                                        <h3>iPhone 14 Pro 256GB</h3>
+                                        <strong class="price">
+                                            29.690.000₫
+                                            <small>-15%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.4</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (54)
+                                        </p>
+                                    </div>   
+                                </div>
+        
+                                <div class="main-product-two-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/264060/samsung-galaxy-s23-600x600.jpg" alt="">
+                                    </div>
+                                    <div class="main-product-two-item-text">
+                                        <h3>Apple Watch Series 7 GPS 41mm viền nhôm dây silicone</h3>
+                                        <strong class="price">
+                                            19.990.000₫
+                                            <small>-13%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.5</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (10)
+                                        </p>
+                                    </div>   
+                                </div>
+        
+                                <div class="main-product-two-item">
+                                    <div class="item-img">
+                                        <img src=https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/224859/samsung-galaxy-s20-fan-edition-xanh-la-thumbnew-600x600.jpeg alt="">
+                                    </div>
+                                    <div class="main-product-two-item-text">
+                                        <h3>Samsung Galaxy S20 FE</h3>
+                                        <strong class="price">
+                                            9.490.000₫
+                                            <small>-24%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.0</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (210)
+                                        </p>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <div class="slide-two-btn">
+                        <i class="fas fa-chevron-left"></i>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <section class="main-product-three">
+        <div class="container">
+            <div class="main-product-three-content">
+                <div class="main-product-three-title">
+                    <p> TUẦN LỄ ACER</p>
+                    <div class="main-product-three-items-top">
+                        <div class="main-product-three-item-top">
+                            <div class="item-img">
+                                <a href="#"><img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/02/banner/Desktop-380x200-380x200.png" alt=""></a>
+                            </div> 
+                            
+                            <div class="item-img">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/02/banner/Desktop-380x200--1--380x200.png" alt="">
+                            </div> 
+    
+                            <div class="item-img">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/02/banner/Desktop-380x200--2--380x200.png" alt="">
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-product-three-content-container">
+                    <div class="main-product-three-container-slider">
+                        <div class="main-product-three-slider">
+                            <div class="main-product-three-items">
+                                <div class="main-product-three-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/268775/TimerThumb/acer-aspire-7-gaming-a715-42g-r4xx-r5-nhqaysv008-(48).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-three-item-text">
+                                        <h3>Acer Aspire 7 Gaming A715 42G R4XX R5 5500U (NH.QAYSV.008)</h3>
+                                        <strong class="price">
+                                            15.990.000₫
+                                            <small>-13%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.5</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (104)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-three-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/271043/TimerThumb/acer-aspire-a514-54-511g-i5-nxa28sv009-(10).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-three-item-text">
+                                        <h3>Acer Aspire 5 A514 54 511G i5 1135G7 (NX.A28SV.009)</h3>
+                                        <strong class="price">
+                                            15.490.000₫
+                                            <small>-22%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>3.6</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (38)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-three-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/263980/TimerThumb/acer-nitro-5-gaming-an515-45-r6ev-r5-nhqbmsv006-(46).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-three-item-text">
+                                        <h3>Acer Nitro 5 Gaming AN515 45 R6EV R5 5600H (NH.QBMSV.006)</h3>
+                                        <strong class="price">
+                                            18.940.000₫
+                                            <small>-15%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.3</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (112)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-three-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/285763/TimerThumb/acer-aspire-3-a315-58-52kt-i5-nxam0sv006-(6).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-three-item-text">
+                                        <h3>Acer Aspire 3 A315 58 52KT i5 1135G7 (NX.AM0SV.006)</h3>
+                                        <strong class="price">
+                                            14.990.000₫
+                                            <small>-11%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.4</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (37)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-three-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/265015/TimerThumb/acer-travelmate-b3-tmb311-31-c2hb-nxvnfsv006-(18).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-three-item-text">
+                                        <h3>Acer TravelMate B3 TMB311 31 C2HB N4020 (NX.VNFSV.006)</h3>
+                                        <strong class="price">
+                                            4.990.000₫
+                                            <small>-50%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.2</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (73)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main-product-three-slider">
+                            <div class="main-product-three-items">
+                                <div class="main-product-three-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/272282/TimerThumb/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-(24).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-three-item-text">
+                                        <h3>Acer Nitro 5 Tiger AN515 58 52SP i5 12500H (NH.QFHSV.001)</h3>
+                                        <strong class="price">
+                                            24.690.000₫
+                                            <small>-11%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.6</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (15)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-three-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/7923/221944/tui-chong-soc-laptop-15-inch-tomtoc-a13-e02d-xanh-1-600x600.jpg" alt="">
+                                    </div>
+
+                                    <div class="product-three-item-text">
+                                        <h3>Túi chống sốc Laptop 15 inch TOMTOC A13-E02D/E02G</h3>
+                                        <strong class="price">
+                                            615.000₫
+                                            <small>-30%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>5</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (2)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-three-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/54/214561/tai-nghe-chup-tai-gaming-mozardx-ds904-71-den-avatar-1-600x600.jpg" alt="">
+                                    </div>
+
+                                    <div class="product-three-item-text">
+                                        <h3>Tai nghe Chụp Tai Gaming MozardX DS904 7.1</h3>
+                                        <strong class="price">
+                                            470.000₫
+                                            <small>-40%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.5</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (24)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-three-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/286228/TimerThumb/acer-aspire-3-a315-59-314f-i3-nxk6tsv002-(10).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-three-item-text">
+                                        <h3>Acer Aspire 3 A315 59 314F i3 1215U (NX.K6TSV.002)</h3>
+                                        <strong class="price">
+                                            10.290.000₫
+                                            <small>-23%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.5</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (29)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-three-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/2162/125847/loa-vi-tinh-fenda-v320-thumb-600x600.jpeg" alt="">
+                                    </div>
+
+                                    <div class="product-three-item-text">
+                                        <h3>Loa vi tính Fenda V320</h3>
+                                        <strong class="price">
+                                            125.000₫
+                                            <small>-50%%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.1</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (205)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide-three-btn">
+                        <i class="fas fa-chevron-left"></i>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+
+            </div> 
+        </div>
+    </section>
+    
+    <section class="main-product-four">
+        <div class="container">
+            <strong class="name-box">
+                Danh mục nổi bật
+            </strong>
+
+            <div class="box-four">
+                <aside>
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Laptop-129x129.png" alt="">
+                            </div>
+                            <span>
+                                Lap top
+                            </span>
+                        </a>
+                    </h3>
+    
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Tablet-128x129.png" alt="">
+                            </div>
+                            <span>
+                                Taplet
+                            </span>
+                        </a>
+                    </h3>
+
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Donghothongminh-128x129.png" alt="">
+                            </div>
+                            <span>
+                                Đồng hồ thông minh
+                            </span>
+                        </a>
+                    </h3>
+
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-DTGR-30x30.png" alt="">
+                            </div>
+                            <span>
+                                Điện thoại độc quyền
+                            </span>
+                        </a>
+                    </h3>
+
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Donghothoitrang-128x129.png" alt="">
+                            </div>
+                            <span>
+                                Đông hồ thời trang
+                            </span>
+                        </a>
+                    </h3>
+
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-may-cu-60x60.png" alt="">
+                            </div>
+                            <span>
+                                Máy cũ giá rẻ
+                            </span>
+                        </a>
+                    </h3>
+
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Oplung-128x128.png" alt="">
+                            </div>
+                            <span>
+                                Ốp lưng
+                            </span>
+                        </a>
+                    </h3>
+
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/chuot-128x129.png" alt="">
+                            </div>
+                            <span>
+                                Chuột
+                            </span>
+                        </a>
+                    </h3>
+
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/ban-phim-128x129.png" alt="">
+                            </div>
+                            <span>
+                                Máy tính
+                            </span>
+                        </a>
+                    </h3>
+
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Simthecao-129x129.png" alt="">
+                            </div>
+                            <span>
+                                Sim,Thẻ cào
+                            </span>
+                        </a>
+                    </h3>
+                </aside>
+               
+                <aside>
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Sacduphong-128x129.png" alt="">
+                            </div>
+                            <span>
+                                Sạc dự phòng
+                            </span>
+                        </a>
+                    </h3>
+    
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Loa-128x128.png" alt="">
+                            </div>
+                            <span>
+                                Loa
+                            </span>
+                        </a>
+                    </h3>
+
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Tainghe-128x129.png" alt="">
+                            </div>
+                            <span>
+                                Tai nghe
+                            </span>
+                        </a>
+                    </h3>
+
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Capsac-129x129.png" alt="">
+                            </div>
+                            <span>
+                                Cáp sạc
+                            </span>
+                        </a>
+                    </h3>
+
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Maytinhbo-128x129.png" alt="">
+                            </div>
+                            <span>
+                                Máy tính bộ
+                            </span>
+                        </a>
+                    </h3>
+
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Mayin-128x129.png" alt="">
+                            </div>
+                            <span>
+                                Máy in
+                            </span>
+                        </a>
+                    </h3>
+
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Manhinhmaytinh-128x129.png" alt="">
+                            </div>
+                            <span>
+                                Man máy tính
+                            </span>
+                        </a>
+                    </h3>
+
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Phukiengaming-128x129.png" alt="">
+                            </div>
+                            <span>
+                                Phụ kiện gaming
+                            </span>
+                        </a>
+                    </h3>
+
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/icon-camera-128x129.png" alt="">
+                            </div>
+                            <span>
+                                Camera
+                            </span>
+                        </a>
+                    </h3>
+
+                    <h3>
+                        <a href="#">
+                            <div class="img-box">
+                                <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/may-chieu-icon-128x129.png" alt="">
+                            </div>
+                            <span>
+                                Máy chiếu
+                            </span>
+                        </a>
+                    </h3>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <section class="discout-payonl">
+        <div class="container">
+            <strong> Giảm giá thanh toán online</strong>
+            <div class="payonl-container">
+                <div class="payonl-container-content">
+                    <div class="payonl-content">
+                        <div class="item-img">
+                            <a href="#"><img src="//cdn.tgdd.vn/2023/01/banner/TGDD380x200-380x200.png" alt=""></a>
+                        </div> 
+                        <div class="item-img">
+                            <a href="#"><img src="//cdn.tgdd.vn/2022/12/banner/380x200-380x200-1.webp" alt=""></a>
+                        </div> 
+                        <div class="item-img">
+                            <a href="#"><img src="//cdn.tgdd.vn/2023/02/banner/VNPay-Toan-bo-san-pham--5--380x200.png" alt=""></a>
+                        </div> 
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <section class="main-product-five">
+        <div class="container">
+            <div class="main-product-five-content">
+                <div class="main-product-five-title">
+                    <h2>Gợi ý hôm nay</h2>
+
+                    <ul class="option-promo-five">
+                        <li class="option1"><img
+                                    src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/mwgcart/mwgcore/ContentMwg/images/homev2/goiy-1.png"
+                                    alt=""><span>Cho bạn</span></li>
+                        <li class="option2"><img
+                                    src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/01/campaign/Desk11-50x50-1-50x50-1.webp"
+                                    alt=""><span>Tanlet giá rẻ</span></li>
+                        <li class="option3"><img
+                                    src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/01/campaign/pk-50-50x50-50x50-2.webp"
+                                    alt=""><span>Phụ kiện giảm sốc</span></li>
+                        <li class="option4"><img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/02/campaign/icon-laptop-gaming-desk-50x50-50x50.png" alt=""><span>Laptop Gaming</span></li>
+                    </ul>
+
+                </div>
+            
+                <div class="main-product-five-sliders">
+                    <div class="main-product-five-container-slider">
+
+                        <div class="main-product-five-slider">
+                            <div class="main-product-five-items">
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/268775/TimerThumb/acer-aspire-7-gaming-a715-42g-r4xx-r5-nhqaysv008-(48).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Acer Aspire 7 Gaming A715 42G R4XX R5 5500U (NH.QAYSV.008)</h3>
+                                        <strong class="price">
+                                            15.990.000₫
+                                            <small>-13%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.5</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (104)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/271043/TimerThumb/acer-aspire-a514-54-511g-i5-nxa28sv009-(10).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Acer Aspire 5 A514 54 511G i5 1135G7 (NX.A28SV.009)</h3>
+                                        <strong class="price">
+                                            15.490.000₫
+                                            <small>-22%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>3.6</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (38)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/263980/TimerThumb/acer-nitro-5-gaming-an515-45-r6ev-r5-nhqbmsv006-(46).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Acer Nitro 5 Gaming AN515 45 R6EV R5 5600H (NH.QBMSV.006)</h3>
+                                        <strong class="price">
+                                            18.940.000₫
+                                            <small>-15%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.3</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (112)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/285763/TimerThumb/acer-aspire-3-a315-58-52kt-i5-nxam0sv006-(6).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Acer Aspire 3 A315 58 52KT i5 1135G7 (NX.AM0SV.006)</h3>
+                                        <strong class="price">
+                                            14.990.000₫
+                                            <small>-11%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.4</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (37)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/265015/TimerThumb/acer-travelmate-b3-tmb311-31-c2hb-nxvnfsv006-(18).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Acer TravelMate B3 TMB311 31 C2HB N4020 (NX.VNFSV.006)</h3>
+                                        <strong class="price">
+                                            4.990.000₫
+                                            <small>-50%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.2</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (73)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/282827/TimerThumb/apple-macbook-air-m2-2022-(33).jpg" alt="">
+                                    </div>
+                                    <div class="product-five-item-text">
+                                        <h3>MacBook Air M2 2022 8-core GPU</h3>
+                                        <strong class="price">
+                                            26.390.000₫
+                                            <small>-20%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.8</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (16)
+                                        </p>
+                                    </div>   
+                                </div>
+        
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/1882/237414/but-cam-ung-apple-pencil-1-mk0c2-180722-112904-600x600.jpeg" alt="">
+                                    </div>
+                                    <div class="product-five-item-text">
+                                        <h3>Bút cảm ứng Apple Pencil 1 MK0C2</h3>
+                                        <strong class="price">
+                                            2.020.000₫
+                                            <small>-30%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.8</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (18)
+                                        </p>
+                                    </div>   
+                                </div>
+        
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/54/230264/tai-nghe-bluetooth-true-wireless-mozard-air-3-den-070123-013447-600x600.jpg" alt="">
+                                    </div>
+                                    <div class="product-five-item-text">
+                                        <h3>Tai nghe Bluetooth True Wireless Mozard Air 3</h3>
+                                        <strong class="price">
+                                            495.000₫
+                                            <small>-44%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>3.6</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (126)
+                                        </p>
+                                    </div>   
+                                </div>
+        
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/7077/249906/apple-watch-s7-41mm-do-thumbnew-600x600.jpeg" alt="">
+                                    </div>
+                                    <div class="product-five-item-text">
+                                        <h3>Apple Watch Series 7 GPS 41mm viền nhôm dây silicone</h3>
+                                        <strong class="price">
+                                            8.990.000₫
+                                            <small>-25%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.3</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (50)
+                                        </p>
+                                    </div>   
+                                </div>
+        
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src=https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/57/286067/pin-sac-du-phong-polymer-15000-mah-type-c-pd-qc30-xmobile-powerbox-p72d-den-030822-110127-600x600.jpg alt="">
+                                    </div>
+                                    <div class="product-five-item-text">
+                                        <h3>Xmobile PowerBox P72D</h3>
+                                        <strong class="price">
+                                            720.000₫
+                                            <small>-20%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.8</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (21)
+                                        </p>
+                                    </div>   
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="main-product-five-slider">
+                            <div class="main-product-five-items">
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/272282/TimerThumb/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-(24).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Acer Nitro 5 Tiger AN515 58 52SP i5 12500H (NH.QFHSV.001)</h3>
+                                        <strong class="price">
+                                            24.690.000₫
+                                            <small>-11%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.6</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (15)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/271043/TimerThumb/acer-aspire-a514-54-511g-i5-nxa28sv009-(10).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Acer Aspire 5 A514 54 511G i5 1135G7 (NX.A28SV.009)</h3>
+                                        <strong class="price">
+                                            15.490.000₫
+                                            <small>-22%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>3.6</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (38)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/263980/TimerThumb/acer-nitro-5-gaming-an515-45-r6ev-r5-nhqbmsv006-(46).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Acer Nitro 5 Gaming AN515 45 R6EV R5 5600H (NH.QBMSV.006)</h3>
+                                        <strong class="price">
+                                            18.940.000₫
+                                            <small>-15%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.3</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (112)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/285763/TimerThumb/acer-aspire-3-a315-58-52kt-i5-nxam0sv006-(6).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Acer Aspire 3 A315 58 52KT i5 1135G7 (NX.AM0SV.006)</h3>
+                                        <strong class="price">
+                                            14.990.000₫
+                                            <small>-11%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.4</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (37)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/265015/TimerThumb/acer-travelmate-b3-tmb311-31-c2hb-nxvnfsv006-(18).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Acer TravelMate B3 TMB311 31 C2HB N4020 (NX.VNFSV.006)</h3>
+                                        <strong class="price">
+                                            4.990.000₫
+                                            <small>-50%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.2</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (73)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/282827/TimerThumb/apple-macbook-air-m2-2022-(33).jpg" alt="">
+                                    </div>
+                                    <div class="product-five-item-text">
+                                        <h3>MacBook Air M2 2022 8-core GPU</h3>
+                                        <strong class="price">
+                                            26.390.000₫
+                                            <small>-20%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.8</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (16)
+                                        </p>
+                                    </div>   
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/7923/221944/tui-chong-soc-laptop-15-inch-tomtoc-a13-e02d-xanh-1-600x600.jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Túi chống sốc Laptop 15 inch TOMTOC A13-E02D/E02G</h3>
+                                        <strong class="price">
+                                            615.000₫
+                                            <small>-30%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>5</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (2)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/54/214561/tai-nghe-chup-tai-gaming-mozardx-ds904-71-den-avatar-1-600x600.jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Tai nghe Chụp Tai Gaming MozardX DS904 7.1</h3>
+                                        <strong class="price">
+                                            470.000₫
+                                            <small>-40%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.5</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (24)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/286228/TimerThumb/acer-aspire-3-a315-59-314f-i3-nxk6tsv002-(10).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Acer Aspire 3 A315 59 314F i3 1215U (NX.K6TSV.002)</h3>
+                                        <strong class="price">
+                                            10.290.000₫
+                                            <small>-23%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.5</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (29)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/2162/125847/loa-vi-tinh-fenda-v320-thumb-600x600.jpeg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Loa vi tính Fenda V320</h3>
+                                        <strong class="price">
+                                            125.000₫
+                                            <small>-50%%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.1</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (205)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main-product-five-slider">
+                            <div class="main-product-five-items">
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/268775/TimerThumb/acer-aspire-7-gaming-a715-42g-r4xx-r5-nhqaysv008-(48).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Acer Aspire 7 Gaming A715 42G R4XX R5 5500U (NH.QAYSV.008)</h3>
+                                        <strong class="price">
+                                            15.990.000₫
+                                            <small>-13%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.5</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (104)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/271043/TimerThumb/acer-aspire-a514-54-511g-i5-nxa28sv009-(10).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Acer Aspire 5 A514 54 511G i5 1135G7 (NX.A28SV.009)</h3>
+                                        <strong class="price">
+                                            15.490.000₫
+                                            <small>-22%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>3.6</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (38)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/263980/TimerThumb/acer-nitro-5-gaming-an515-45-r6ev-r5-nhqbmsv006-(46).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Acer Nitro 5 Gaming AN515 45 R6EV R5 5600H (NH.QBMSV.006)</h3>
+                                        <strong class="price">
+                                            18.940.000₫
+                                            <small>-15%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.3</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (112)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/285763/TimerThumb/acer-aspire-3-a315-58-52kt-i5-nxam0sv006-(6).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Acer Aspire 3 A315 58 52KT i5 1135G7 (NX.AM0SV.006)</h3>
+                                        <strong class="price">
+                                            14.990.000₫
+                                            <small>-11%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.4</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (37)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/265015/TimerThumb/acer-travelmate-b3-tmb311-31-c2hb-nxvnfsv006-(18).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Acer TravelMate B3 TMB311 31 C2HB N4020 (NX.VNFSV.006)</h3>
+                                        <strong class="price">
+                                            4.990.000₫
+                                            <small>-50%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.2</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (73)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main-product-five-slider">
+                            <div class="main-product-five-items">
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/272282/TimerThumb/acer-nitro-5-tiger-an515-58-52sp-i5-nhqfhsv001-(24).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Acer Nitro 5 Tiger AN515 58 52SP i5 12500H (NH.QFHSV.001)</h3>
+                                        <strong class="price">
+                                            24.690.000₫
+                                            <small>-11%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.6</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (15)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/7923/221944/tui-chong-soc-laptop-15-inch-tomtoc-a13-e02d-xanh-1-600x600.jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Túi chống sốc Laptop 15 inch TOMTOC A13-E02D/E02G</h3>
+                                        <strong class="price">
+                                            615.000₫
+                                            <small>-30%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>5</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (2)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/54/214561/tai-nghe-chup-tai-gaming-mozardx-ds904-71-den-avatar-1-600x600.jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Tai nghe Chụp Tai Gaming MozardX DS904 7.1</h3>
+                                        <strong class="price">
+                                            470.000₫
+                                            <small>-40%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.5</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (24)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/44/286228/TimerThumb/acer-aspire-3-a315-59-314f-i3-nxk6tsv002-(10).jpg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Acer Aspire 3 A315 59 314F i3 1215U (NX.K6TSV.002)</h3>
+                                        <strong class="price">
+                                            10.290.000₫
+                                            <small>-23%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.5</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (29)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="main-product-five-item">
+                                    <div class="item-img">
+                                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/2162/125847/loa-vi-tinh-fenda-v320-thumb-600x600.jpeg" alt="">
+                                    </div>
+
+                                    <div class="product-five-item-text">
+                                        <h3>Loa vi tính Fenda V320</h3>
+                                        <strong class="price">
+                                            125.000₫
+                                            <small>-50%%</small>
+                                        </strong>
+                                        <p class="vote-txt">
+                                            <b>4.1</b>
+                                            <i class="fa-solid fa-star"></i>
+                                            (205)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="copyright">
+            <section>
+                <p>
+                    © 2018. Công ty cổ phần Thế Giới Di Động. GPDKKD: 0303217354 do sở KH &amp; ĐT TP.HCM cấp ngày 02/01/2007. GPMXH: 238/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp ngày 04/06/2020.<br>
+                    Địa chỉ: 128 Trần Quang Khải, P. Tân Định, Q.1, TP.Hồ Chí Minh. Điện thoại: 028 38125960. Email: cskh@thegioididong.com. Chịu trách nhiệm nội dung: Huỳnh Văn Tốt.
+            </section>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
