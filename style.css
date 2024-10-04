@@ -822,7 +822,7 @@ div.slide-container-top.slick-initialized.slick-slider {
 
 .main-product-three-item-top>.item-img img {
     border-radius: 10px;
-    width: 414px;
+    width: 100%;
 }
 
 .main-product-three-items {
@@ -1035,7 +1035,7 @@ div.slide-container-top.slick-initialized.slick-slider {
 
 .payonl-container .item-img>a>img {
     border-radius: 10px;
-    width: 414px;
+    width: 100%;
 }
 
 .payonl-container .item-img {
@@ -1113,7 +1113,7 @@ div.slide-container-top.slick-initialized.slick-slider {
     line-height: 21px;
     /* display: -webkit-box; */
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    /* -webkit-line-clamp: 2; */
     font-size: 14px;
     line-height: 20px;
     overflow: hidden;
@@ -1263,4 +1263,97 @@ div.slide-container-top.slick-initialized.slick-slider {
     width: 100%;
     max-width: 1200px;
     margin: auto;
+}
+
+/* Responsive header and nav */
+@media screen and (max-width: 1200px) {
+  header {
+    padding: 10px 20px;
+    width: 100%;
+  }
+
+  img{
+    width: 100%;
+  }
+  nav ul {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav ul li {
+    margin: 5px 10px;
+  }
+
+  .menu-bar {
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .menu-bar ul {
+    display: inline-flex;
+    flex-wrap: nowrap;
+  }
+
+  .menu-bar ul li {
+    flex-shrink: 0;
+  }
+
+  .submenu {
+    position: static;
+    width: 100%;
+    display: none;
+  }
+
+  .menu-bar ul li:hover .submenu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search-bar {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .menu-bar {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    padding: 10px;
+  }
+
+  .logo img {
+    max-width: 120px;
+  }
+
+  nav ul li {
+    margin: 5px;
+  }
+
+  .menu-bar ul li {
+    padding: 5px 10px;
+  }
 }
